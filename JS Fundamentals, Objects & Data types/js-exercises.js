@@ -283,29 +283,3 @@
 // let age = prompt("Enter your age: ");
 
 // alert(`Hello ${name}! You are ${age} years old.`)
-
-
-//                      - PROTOTYPES
-
-// Task: Build a Simple Banking Application using Prototypes
-
-// You are required to build a simple banking application using prototypes in JavaScript. 
-// The application should allow users to create bank accounts, deposit and withdraw money from their accounts.
-
-// Each account should have a balance, and the application should perform validation checks to ensure that
-// users cannot withdraw more money than they have in their accounts.
-
-// Here are the steps to follow:
-
-// Create a prototype for a bank account. The prototype should contain a constructor that accepts
-// an initial balance, and methods for depositing and withdrawing money.
-
-// Use the prototype to create new bank accounts.
-
-// Implement validation checks to ensure that users cannot withdraw more money than they have in their accounts.
-
-// Create a user interface for the banking application using HTML and CSS.
-
-// Use JavaScript to handle user input and update the user interface to reflect the current state of the bank accounts.
-
-// Test the application to ensure that it works as expected.

@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+
+h4 {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
