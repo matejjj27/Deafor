@@ -3,9 +3,49 @@
     <head>
         <title>JS Exercises</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="js-exercises.js" defer></script>
+        <script src="prototypes.js" defer></script>
     </head>
     <body>
-        <h1>JS Exercises</h1>
+        <h1>JS Exercises - Prototypes</h1>
+        <h3>
+            Task: <br> Build a Simple Banking Application using Prototypes
+            <br>
+You are required to build a simple banking application using prototypes in JavaScript. The application should allow users to create bank accounts, deposit and withdraw money from their accounts.
+<br>
+Each account should have a balance, and the application should perform validation checks to ensure that users cannot withdraw more money than they have in their accounts.
+<br><br>
+Here are the steps to follow:
+<br>
+Create a prototype for a bank account. The prototype should contain a constructor that accepts an initial balance, and methods for depositing and withdrawing money.
+<br>
+Use the prototype to create new bank accounts.
+<br>
+Implement validation checks to ensure that users cannot withdraw more money than they have in their accounts.
+<br>
+Create a user interface for the banking application using HTML and CSS.
+<br>
+Use JavaScript to handle user input and update the user interface to reflect the current state of the bank accounts.
+<br>
+Test the application to ensure that it works as expected.
+        </h3>
+        <div class="system">
+            <h1>My Banking System</h1>
+            <h3>Enter your information to create a bank account</h3>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name" required/><br><br>
+            <label for="balance">Balance:</label>
+            <input type="number" placeholder="Enter starting balance" id="balance" required/>
+            <button onclick=onSubmit()>Submit</button>
+            <div id="bank-operations" style="visibility: hidden;">
+                <h2>Account holder: </h2>
+                <h2 id="acc-holder"></h2><br>
+                <h2>Balance: </h2>
+                <h2 id="acc-balance"></h2><br>
+                <label for="amount">Amount: </label>
+                <input type="number" placeholder="Enter amount to withdraw/deposit" id="amount"/>
+                <button onclick=onWithdraw() id="withdraw">Withdraw</button>
+                <button onclick=onDeposit() id="deposit">Deposit</button>
+            </div>
+        </div>
     </body>
 </html>
